@@ -15,14 +15,14 @@ namespace SistemaVenta.BLL.Implementacion
     {
         private readonly IGenericRepository<Producto> _repositorio;
         private readonly IFireBaseService _fireBaseServicio;
-       
-
+       private readonly IUtilidadesService _utilidadesServicio;
         public ProductoService(IGenericRepository<Producto> repositorio,
-                IFireBaseService fireBaseServicio)
+                IFireBaseService fireBaseServicio,
+                IUtilidadesService utilidadesServicio)
         {
             _repositorio = repositorio;
             _fireBaseServicio = fireBaseServicio;
-            
+            _utilidadesServicio = utilidadesServicio;   
         }
 
         public async Task<List<Producto>> Lista()

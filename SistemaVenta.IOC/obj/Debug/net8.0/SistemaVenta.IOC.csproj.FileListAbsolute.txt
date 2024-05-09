@@ -17,3 +17,4 @@ C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.IOC\b
 C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.IOC\bin\Debug\net8.0\SistemaVenta.Entity.pdb
 C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.IOC\obj\Debug\net8.0\SistemaVenta.IOC.csproj.AssemblyReference.cache
 C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.IOC\obj\Debug\net8.0\SistemaV.CF7CC950.Up2Date
+C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.IOC\obj\Debug\net8.0\SistemaVenta.IOC.sourcelink.json
