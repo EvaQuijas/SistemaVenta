@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\views\\venta\\nuevaventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\views\\venta\\nuevaventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Controllers\\ProductoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T00:53:12.359Z",
+              "DocumentIndex": 1,
+              "Title": "NuevaVenta.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Views\\Venta\\NuevaVenta.cshtml",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Views\\Venta\\NuevaVenta.cshtml",
+              "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Views\\Venta\\NuevaVenta.cshtml",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Views\\Venta\\NuevaVenta.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T19:40:02.622Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
+              "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:10:27.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

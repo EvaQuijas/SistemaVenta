@@ -18,11 +18,10 @@ namespace SistemaVenta.AplicacionWeb.Controllers
         private readonly IProductoService _productoServicio;
         
 
-        public ProductoController(IMapper mapper, IProductoService productoServicio)
+        public ProductoController(IMapper mapper, IProductoService productoServicio, ICategoriaService categoriaServicio)
         {
             _mapper = mapper;
             _productoServicio = productoServicio;
-      
         }
 
         public IActionResult Index()

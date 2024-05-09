@@ -91,7 +91,7 @@ function mostrarModal(modelo = MODELO_BASE) {
     $("#txtCodigoBarra").val(modelo.codigoBarra)
     $("#txtMarca").val(modelo.marca)
     $("#txtDescripcion").val(modelo.descripcion)
-    $("#cboCategoria").val(modelo.idCategoria == 0 ? $("#cboCategoria option:first").val() : idCategoria)
+    $("#cboCategoria").val(modelo.idCategoria == 0 ? $("#cboCategoria option:first").val():modelo.idCategoria)
     $("#txtStock").val(modelo.stock)
     $("#txtPrecio").val(modelo.precio)
     $("#cboEstado").val(modelo.esActivo)
@@ -216,7 +216,7 @@ $("#tbdata tbody").on("click", ".btn-editar", function () {
                 if (respuesta) {
                     $(".showSweetAlert").LoadingOverlay("show");
 
-                    fetch(`/Producto/Eliminar?IdProducto=${data.IdProducto}`, {
+                    fetch(`/Producto/Eliminar?IdProducto=${data.idProducto}`, {
                         method: "DELETE"
                     }).then(response => {
                         $(".showSweetAlert").LoadingOverlay("hide");

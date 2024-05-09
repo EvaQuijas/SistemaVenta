@@ -15,14 +15,11 @@ namespace SistemaVenta.BLL.Implementacion
     {
         private readonly IGenericRepository<Producto> _repositorio;
         private readonly IFireBaseService _fireBaseServicio;
-       private readonly IUtilidadesService _utilidadesServicio;
         public ProductoService(IGenericRepository<Producto> repositorio,
-                IFireBaseService fireBaseServicio,
-                IUtilidadesService utilidadesServicio)
+                IFireBaseService fireBaseServicio)
         {
             _repositorio = repositorio;
-            _fireBaseServicio = fireBaseServicio;
-            _utilidadesServicio = utilidadesServicio;   
+            _fireBaseServicio = fireBaseServicio;   
         }
 
         public async Task<List<Producto>> Lista()
@@ -80,6 +77,7 @@ namespace SistemaVenta.BLL.Implementacion
                 producto_para_editar.CodigoBarra = entidad.CodigoBarra;
                 producto_para_editar.Marca = entidad.Marca;
                 producto_para_editar.Descripcion = entidad.Descripcion;
+                producto_para_editar.IdCategoria = entidad.IdCategoria;
                 producto_para_editar.Stock = entidad.Stock;
                 producto_para_editar.Precio = entidad.Precio;
                 producto_para_editar.EsActivo = entidad.EsActivo;
@@ -114,8 +112,8 @@ namespace SistemaVenta.BLL.Implementacion
                 Producto producto_encontrado = await _repositorio.Obtener(p => p.IdProducto == idProducto);
 
                 if (producto_encontrado == null)
-                    throw new TaskCanceledException("El producto no existe");
 
+                { throw new TaskCanceledException("El producto no existe"); }
                 string nombreImagen = producto_encontrado.NombreImagen;
 
                 bool respuesta = await _repositorio.Eliminar(producto_encontrado);
