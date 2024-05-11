@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\wwwroot\\js\\vistas\\nueva_venta.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\wwwroot\\js\\vistas\\nueva_venta.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\views\\venta\\nuevaventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\views\\venta\\nuevaventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\wwwroot\\js\\vistas\\usuario_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\wwwroot\\js\\vistas\\usuario_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,27 +36,53 @@
               "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Views\\Venta\\NuevaVenta.cshtml",
               "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Views\\Venta\\NuevaVenta.cshtml",
               "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Views\\Venta\\NuevaVenta.cshtml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIAAAAABAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAAHYAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T19:40:02.622Z",
+              "WhenOpened": "2024-05-10T21:24:34.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VentaController.cs",
-              "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
-              "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
-              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T19:10:27.499Z",
+              "Title": "Nueva_Venta.js",
+              "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Nueva_Venta.js",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Nueva_Venta.js",
+              "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Nueva_Venta.js",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Nueva_Venta.js",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAmwNgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-10T03:39:21.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario_Index.js",
+              "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_Index.js",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_Index.js",
+              "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_Index.js",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_Index.js",
+              "ViewState": "AQIAANgAAAAAAAAAAAAAAOEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-10T21:00:39.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
+              "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Controllers\\VentaController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:38:48.105Z",
+              "EditorCaption": ""
             }
           ]
         }

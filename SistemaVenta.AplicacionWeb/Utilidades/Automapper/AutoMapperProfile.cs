@@ -139,7 +139,7 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
            )
                  .ForMember(destino =>
            destino.ImpuestoTotal,
-            opt => opt.MapFrom(origen => Convert.ToDecimal(origen.SubTotal, new CultureInfo("es-MX")))
+            opt => opt.MapFrom(origen => Convert.ToDecimal(origen.ImpuestoTotal, new CultureInfo("es-MX")))
            )
                  .ForMember(destino =>
            destino.Total,

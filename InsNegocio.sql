@@ -13,3 +13,7 @@ INSERT INTO Categoria(descripcion,esActivo) values
 ('Equipo Electrico',1),
 ('Equipo Electronico',1),
 ('Seguridad Industrial',1)
+
+select *from Producto
+
+select *from Venta
