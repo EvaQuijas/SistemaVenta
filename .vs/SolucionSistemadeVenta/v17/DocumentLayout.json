@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\wwwroot\\vendor\\jquery-ui\\jquery-ui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\wwwroot\\vendor\\jquery-ui\\jquery-ui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\views\\venta\\historialventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\views\\venta\\historialventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\wwwroot\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\wwwroot\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0B289B8-AD34-4D5E-842F-586CF09F2843}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\eva\\desktop\\uanl\\poo\\proyecto\\solucionsistemadeventa\\sistemaventa.aplicacionweb\\wwwroot\\js\\vistas\\historial_venta.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -23,19 +31,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "jquery-ui.css",
+              "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\vendor\\jquery-ui\\jquery-ui.css",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\wwwroot\\vendor\\jquery-ui\\jquery-ui.css",
+              "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\vendor\\jquery-ui\\jquery-ui.css",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\wwwroot\\vendor\\jquery-ui\\jquery-ui.css",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-11T22:21:51.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sb-admin-2.css",
+              "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\css\\sb-admin-2.css",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\wwwroot\\css\\sb-admin-2.css",
+              "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\css\\sb-admin-2.css",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\wwwroot\\css\\sb-admin-2.css",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-11T22:20:56.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HistorialVenta.cshtml",
               "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Views\\Venta\\HistorialVenta.cshtml",
               "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Views\\Venta\\HistorialVenta.cshtml",
               "ToolTip": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\Views\\Venta\\HistorialVenta.cshtml",
               "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Views\\Venta\\HistorialVenta.cshtml",
-              "ViewState": "AQIAAJIAAAAAAAAAAAAAAJwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T14:53:44.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T14:53:44.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Historial_Venta.js",
               "DocumentMoniker": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Historial_Venta.js",
               "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Historial_Venta.js",
@@ -43,8 +75,11 @@
               "RelativeToolTip": "SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Historial_Venta.js",
               "ViewState": "AQIAAF8AAAAAAAAAAAAswG0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-11T14:51:36.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T14:51:36.77Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
