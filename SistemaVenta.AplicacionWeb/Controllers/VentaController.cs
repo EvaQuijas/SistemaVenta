@@ -50,7 +50,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
            GenericResponse<VMVenta> gResponse = new GenericResponse<VMVenta>();
             try
             {
-                modelo.IdUsuario = 1;
+                //modelo.IdUsuario = 1;
 
                 Venta venta_creada = await _ventaServicio.Registrar(_mapper.Map<Venta>(modelo));
                 modelo = _mapper.Map<VMVenta>(venta_creada);
