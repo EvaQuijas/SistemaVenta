@@ -30,10 +30,10 @@
 
                 if (d.ventasUltimaSemana.lenght > 0) {
                     barchart_labels = d.ventasUltimaSemana.map((item) => { return item.fecha })
-                    barchart_labels = d.ventasUltimaSemana.map((item) => { return item.total })
+                    barchart_data = d.ventasUltimaSemana.map((item) => { return item.total })
                 } else {
                     barchart_labels = ["sin resultados"]
-                    barchart_labels = [0]
+                    barchart_data = [0]
                 }
 
 
@@ -44,10 +44,10 @@
 
                 if (d.productosTopUltimaSemana.lenght > 0) {
                     piechart_labels = d.productosTopUltimaSemana.map((item) => { return item.fecha })
-                    piechart_labels = d.productosTopUltimaSemana.map((item) => { return item.total })
+                    piechart_data = d.productosTopUltimaSemana.map((item) => { return item.total })
                 } else {
                     piechart_labels = ["sin resultados"]
-                    piechart_labels = [0]
+                    piechart_data = [0]
                 }
 
 
