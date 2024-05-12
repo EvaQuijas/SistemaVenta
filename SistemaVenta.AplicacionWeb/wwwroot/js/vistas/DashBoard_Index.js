@@ -28,7 +28,7 @@
                 let barchart_labels;
                 let barchart_data;
 
-                if (d.ventasUltimaSemana.lenght > 0) {
+                if (d.ventasUltimaSemana.length > 0) {
                     barchart_labels = d.ventasUltimaSemana.map((item) => { return item.fecha })
                     barchart_data = d.ventasUltimaSemana.map((item) => { return item.total })
                 } else {
@@ -42,7 +42,7 @@
                 let piechart_labels;
                 let piechart_data;
 
-                if (d.productosTopUltimaSemana.lenght > 0) {s
+                if (d.productosTopUltimaSemana.length > 0) { 
                     piechart_labels = d.productosTopUltimaSemana.map((item) => { return item.producto })
                     piechart_data = d.productosTopUltimaSemana.map((item) => { return item.cantidad })
                 } else {
