@@ -42,9 +42,9 @@
                 let piechart_labels;
                 let piechart_data;
 
-                if (d.productosTopUltimaSemana.lenght > 0) {
-                    piechart_labels = d.productosTopUltimaSemana.map((item) => { return item.fecha })
-                    piechart_data = d.productosTopUltimaSemana.map((item) => { return item.total })
+                if (d.productosTopUltimaSemana.lenght > 0) {s
+                    piechart_labels = d.productosTopUltimaSemana.map((item) => { return item.producto })
+                    piechart_data = d.productosTopUltimaSemana.map((item) => { return item.cantidad })
                 } else {
                     piechart_labels = ["sin resultados"]
                     piechart_data = [0]
