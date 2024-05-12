@@ -110,6 +110,9 @@ $(document).ready(function () {
                 )
             )
         })
+
+        $("#linkImprimir").attr("href", `/Venta/MostrarPDFVenta?numeroVenta=${d.numeroVenta}`)
+
         console.log(d)
         $("#modalData").modal("show")
     })
