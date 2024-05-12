@@ -10,146 +10,145 @@ using SistemaVenta.DAL.Interfaces;
 using SistemaVenta.Entity;
 using System.Globalization;
 
-namespace SistemaVenta.BLL.Implementacion^^
+namespace SistemaVenta.BLL.Implementacion;
+
+public class DashBoardService : IDashBoardService
 {
-    public class DashBoardService : IDashBoardService
+
+    private readonly IVentaRepository _repositorioVenta;
+    private readonly IGenericRepository<DetalleVenta> _repositorioDetalleVenta;
+    private readonly IGenericRepository<Categoria> _repositorioCategoria;
+    private readonly IGenericRepository<Producto> _repositorioProducto;
+
+    private DateTime FechaIncio = DateTime.Now;
+
+    public DashBoardService(
+            IVentaRepository repositorioVenta,
+            IGenericRepository<DetalleVenta> repositorioDetalleVenta,
+            IGenericRepository<Categoria> repositorioCategoria,
+            IGenericRepository<Producto> repositorioProducto
+        )
     {
+        _repositorioVenta = repositorioVenta;
+        _repositorioDetalleVenta = repositorioDetalleVenta;
+        _repositorioCategoria = repositorioCategoria;
+        _repositorioProducto = repositorioProducto;
 
-        private readonly IVentaRepository _repositorioVenta;
-        private readonly IGenericRepository<DetalleVenta> _repositorioDetalleVenta;
-        private readonly IGenericRepository<Categoria> _repositorioCategoria;
-        private readonly IGenericRepository<Producto> _repositorioProducto;
+        FechaIncio = FechaIncio.AddDays(-7);
+    }
 
-        private DateTime FechaIncio = DateTime.Now;
 
-        public DashBoardService(
-                IVentaRepository repositorioVenta,
-                IGenericRepository<DetalleVenta> repositorioDetalleVenta,
-                IGenericRepository<Categoria> repositorioCategoria,
-                IGenericRepository<Producto> repositorioProducto
-            )
+    public async Task<int> TotalVentasUltimaSemana()
+    {
+        try
         {
-            _repositorioVenta = repositorioVenta;
-            _repositorioDetalleVenta = repositorioDetalleVenta;
-            _repositorioCategoria = repositorioCategoria;
-            _repositorioProducto = repositorioProducto;
-
-            FechaIncio = FechaIncio.AddDays(-7);
+            IQueryable<Venta> query = await _repositorioVenta.Consultar(v => v.FechaRegistro.Value.Date >= FechaIncio.Date);
+            int total = query.Count();
+            return total;
         }
-
-
-        public async Task<int> TotalVentasUltimaSemana()
+        catch
         {
-            try
-            {
-                IQueryable<Venta> query = await _repositorioVenta.Consultar(v => v.FechaRegistro.Value.Date >= FechaIncio.Date);
-                int total = query.Count();
-                return total;
-            }
-            catch
-            {
-                throw;
-            }
-            
+            throw;
         }
+        
+    }
 
-        public async Task<string> TotalIngresosUltimaSemana()
+    public async Task<string> TotalIngresosUltimaSemana()
+    {
+        try
         {
-            try
-            {
-                IQueryable<Venta> query = await _repositorioVenta.Consultar(v => v.FechaRegistro.Value.Date >= FechaIncio.Date);
+            IQueryable<Venta> query = await _repositorioVenta.Consultar(v => v.FechaRegistro.Value.Date >= FechaIncio.Date);
 
-                decimal resultado = query
-                    .Select(v => v.Total)
-                    .Sum(v => v.Value);
+            decimal resultado = query
+                .Select(v => v.Total)
+                .Sum(v => v.Value);
 
 
-                return Convert.ToString(resultado, new CultureInfo("es-PE"));
-            }
-            catch
-            {
-                throw;
-            }
-
+            return Convert.ToString(resultado, new CultureInfo("es-PE"));
         }
-
-        public async Task<int> TotalProductos()
+        catch
         {
-            try
-            {
-                IQueryable<Producto> query = await _repositorioProducto.Consultar();
-
-                int total = query.Count();
-                return total;
-
-            }
-            catch
-            {
-                throw;
-            }
-        }
-
-        public async Task<int> TotalCategorias()
-        {
-
-            try
-            {
-                IQueryable<Categoria> query = await _repositorioCategoria.Consultar();
-
-                int total = query.Count();
-                return total;
-
-            }
-            catch
-            {
-                throw;
-            }
-
-        }
-
-        public async Task<Dictionary<string, int>> VentasUltimaSemana()
-        {
-
-            try
-            {
-                IQueryable<Venta> query = await _repositorioVenta.Consultar(v => v.FechaRegistro.Value.Date >= FechaIncio.Date);
-
-                Dictionary<string, int> resultado = query
-                    .GroupBy(v => v.FechaRegistro.Value.Date).OrderByDescending(g => g.Key)
-                    .Select(dv => new { fecha = dv.Key.ToString("dd/MM/yyyy"), total = dv.Count() })
-                    .ToDictionary(keySelector: r => r.fecha, elementSelector: r => r.total);
-
-                return resultado;
-            }
-            catch
-            {
-                throw;
-            }
-
-
-
-        }
-
-        public async Task<Dictionary<string, int>> ProductosTopUltimaSemana()
-        {
-            try
-            {
-                IQueryable<DetalleVenta> query = await _repositorioDetalleVenta.Consultar();
-
-                Dictionary<string, int> resultado = query
-                    .Include(v => v.IdVentaNavigation)
-                    .Where(dv => dv.IdVentaNavigation.FechaRegistro.Value.Date >= FechaIncio.Date)
-                    .GroupBy(dv => dv.DescripcionProducto).OrderByDescending(g => g.Count())
-                    .Select(dv => new { producto = dv.Key, total = dv.Count() })
-                    .ToDictionary(keySelector: r => r.producto, elementSelector: r => r.total);
-
-                return resultado;
-            }
-            catch
-            {
-                throw;
-            }
+            throw;
         }
 
     }
+
+    public async Task<int> TotalProductos()
+    {
+        try
+        {
+            IQueryable<Producto> query = await _repositorioProducto.Consultar();
+
+            int total = query.Count();
+            return total;
+
+        }
+        catch
+        {
+            throw;
+        }
+    }
+
+    public async Task<int> TotalCategorias()
+    {
+
+        try
+        {
+            IQueryable<Categoria> query = await _repositorioCategoria.Consultar();
+
+            int total = query.Count();
+            return total;
+
+        }
+        catch
+        {
+            throw;
+        }
+
+    }
+
+    public async Task<Dictionary<string, int>> VentasUltimaSemana()
+    {
+
+        try
+        {
+            IQueryable<Venta> query = await _repositorioVenta.Consultar(v => v.FechaRegistro.Value.Date >= FechaIncio.Date);
+
+            Dictionary<string, int> resultado = query
+                .GroupBy(v => v.FechaRegistro.Value.Date).OrderByDescending(g => g.Key)
+                .Select(dv => new { fecha = dv.Key.ToString("dd/MM/yyyy"), total = dv.Count() })
+                .ToDictionary(keySelector: r => r.fecha, elementSelector: r => r.total);
+
+            return resultado;
+        }
+        catch
+        {
+            throw;
+        }
+
+
+
+    }
+
+    public async Task<Dictionary<string, int>> ProductosTopUltimaSemana()
+    {
+        try
+        {
+            IQueryable<DetalleVenta> query = await _repositorioDetalleVenta.Consultar();
+
+            Dictionary<string, int> resultado = query
+                .Include(v => v.IdVentaNavigation)
+                .Where(dv => dv.IdVentaNavigation.FechaRegistro.Value.Date >= FechaIncio.Date)
+                .GroupBy(dv => dv.DescripcionProducto).OrderByDescending(g => g.Count())
+                .Select(dv => new { producto = dv.Key, total = dv.Count() })
+                .ToDictionary(keySelector: r => r.producto, elementSelector: r => r.total);
+
+            return resultado;
+        }
+        catch
+        {
+            throw;
+        }
+    }
+
 }
