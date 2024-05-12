@@ -140,7 +140,7 @@ public class DashBoardService : IDashBoardService
                 .Include(v => v.IdVentaNavigation)
                 .Where(dv => dv.IdVentaNavigation.FechaRegistro.Value.Date >= FechaIncio.Date)
                 .GroupBy(dv => dv.DescripcionProducto).OrderByDescending(g => g.Count())
-                .Select(dv => new { producto = dv.Key, total = dv.Count() })
+                .Select(dv => new { producto = dv.Key, total = dv.Count() }).Take(4)
                 .ToDictionary(keySelector: r => r.producto, elementSelector: r => r.total);
 
             return resultado;
