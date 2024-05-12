@@ -16,7 +16,7 @@
 
                 //mostrar datos para las tarjetas
                 let d = responseJson.objeto
-
+                console.log(d)
                 $("#totalVenta").text(d.totalVentas)
                 $("#totalIngresos").text(d.totalIngresos)
                 $("#totalProductos").text(d.totalProductos)
@@ -27,11 +27,13 @@
 
                 let barchart_labels;
                 let barchart_data;
-
-                if (d.ventasUltimaSemana.lenght > 0) {
+                console.log(d)
+                if (d.ventasUltimaSemana.length > 0) {
+                    console.log(d)
                     barchart_labels = d.ventasUltimaSemana.map((item) => { return item.fecha })
                     barchart_data = d.ventasUltimaSemana.map((item) => { return item.total })
                 } else {
+                    console.log(d)
                     barchart_labels = ["sin resultados"]
                     barchart_data = [0]
                 }
@@ -42,7 +44,7 @@
                 let piechart_labels;
                 let piechart_data;
 
-                if (d.productosTopUltimaSemana.lenght > 0) {s
+                if (d.productosTopUltimaSemana.length > 0) {
                     piechart_labels = d.productosTopUltimaSemana.map((item) => { return item.producto })
                     piechart_data = d.productosTopUltimaSemana.map((item) => { return item.cantidad })
                 } else {

@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\js\\vistas\\Categoria_Index.js"
     },
     {
+      "Id": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\DashBoard_Index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\DashBoard_Index.js"
+    },
+    {
       "Id": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Historial_Venta.js",
       "PackagePath": "staticwebassets\\js\\vistas\\Historial_Venta.js"
     },
@@ -67,6 +71,10 @@
     {
       "Id": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Producto_Index.js",
       "PackagePath": "staticwebassets\\js\\vistas\\Producto_Index.js"
+    },
+    {
+      "Id": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Reporte_Index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\Reporte_Index.js"
     },
     {
       "Id": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_Index.js",

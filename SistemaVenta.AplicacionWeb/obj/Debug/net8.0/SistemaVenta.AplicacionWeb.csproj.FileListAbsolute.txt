@@ -263,3 +263,4 @@ C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.Aplic
 C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.AplicacionWeb\obj\Debug\net8.0\SistemaVenta.AplicacionWeb.sourcelink.json
+C:\Users\Eva\Desktop\UANL\POO\PROYECTO\SolucionSistemadeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\DinkToPdf.dll

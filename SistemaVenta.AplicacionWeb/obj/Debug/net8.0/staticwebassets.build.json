@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ByFk3qC67+ZYCzkVAIAGgJAuXwridtE+QQ6nuFLPgQ0=",
+  "Hash": "d68TZ89rLbnkhB3CbX/+EqfoDOI3rpuppORpcR+dPdg=",
   "Source": "SistemaVenta.AplicacionWeb",
   "BasePath": "_content/SistemaVenta.AplicacionWeb",
   "Mode": "Default",
@@ -321,6 +321,25 @@
       "OriginalItemSpec": "wwwroot\\js\\vistas\\chart-pie-demo.js"
     },
     {
+      "Identity": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\DashBoard_Index.js",
+      "SourceId": "SistemaVenta.AplicacionWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaVenta.AplicacionWeb",
+      "RelativePath": "js/vistas/DashBoard_Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\vistas\\DashBoard_Index.js"
+    },
+    {
       "Identity": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\datatables-demo.js",
       "SourceId": "SistemaVenta.AplicacionWeb",
       "SourceType": "Discovered",
@@ -414,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\vistas\\Producto_Index.js"
+    },
+    {
+      "Identity": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Reporte_Index.js",
+      "SourceId": "SistemaVenta.AplicacionWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaVenta.AplicacionWeb",
+      "RelativePath": "js/vistas/Reporte_Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\vistas\\Reporte_Index.js"
     },
     {
       "Identity": "C:\\Users\\Eva\\Desktop\\UANL\\POO\\PROYECTO\\SolucionSistemadeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_Index.js",
