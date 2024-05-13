@@ -7,10 +7,13 @@ using SistemaVenta.BLL.Interfaces;
 using SistemaVenta.Entity;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using SistemaVenta.AplicacionWeb.Utilidades.Response;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace SistemaVenta.AplicacionWeb.Controllers
 {
+
+    [Authorize]
     public class ProductoController : Controller
     {
 
