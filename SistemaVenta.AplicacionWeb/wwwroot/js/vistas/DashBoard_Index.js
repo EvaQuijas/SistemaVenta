@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿jQuery(document).ready(function () {
 
     $("div.container-fluid").LoadingOverlay("show");
 
@@ -16,7 +16,7 @@
 
                 //mostrar datos para las tarjetas
                 let d = responseJson.objeto
-                console.log(d)
+
                 $("#totalVenta").text(d.totalVentas)
                 $("#totalIngresos").text(d.totalIngresos)
                 $("#totalProductos").text(d.totalProductos)
@@ -27,18 +27,12 @@
 
                 let barchart_labels;
                 let barchart_data;
-<<<<<<< HEAD
-                console.log(d)
-                if (d.ventasUltimaSemana.length > 0) {
-                    console.log(d)
-=======
 
                 if (d.ventasUltimaSemana.length > 0) {
->>>>>>> 948a0c9a53ab879389907b13ea4bc918367d22d5
+                    console.log(d)
                     barchart_labels = d.ventasUltimaSemana.map((item) => { return item.fecha })
                     barchart_data = d.ventasUltimaSemana.map((item) => { return item.total })
                 } else {
-                    console.log(d)
                     barchart_labels = ["sin resultados"]
                     barchart_data = [0]
                 }
@@ -49,11 +43,7 @@
                 let piechart_labels;
                 let piechart_data;
 
-<<<<<<< HEAD
                 if (d.productosTopUltimaSemana.length > 0) {
-=======
-                if (d.productosTopUltimaSemana.length > 0) { 
->>>>>>> 948a0c9a53ab879389907b13ea4bc918367d22d5
                     piechart_labels = d.productosTopUltimaSemana.map((item) => { return item.producto })
                     piechart_data = d.productosTopUltimaSemana.map((item) => { return item.cantidad })
                 } else {
@@ -131,12 +121,6 @@
                         cutoutPercentage: 80,
                     },
                 });
-
-
-
-
-
-
 
 
 
